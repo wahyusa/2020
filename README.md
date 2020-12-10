@@ -13,10 +13,10 @@ npm install
 
 If success we'll have node_modules folder you know.. 😉
 
-# Build style.css then launch localhost:3000
+# Build style.css for development then launch localhost:3000
 
 ```
-npm run build
+npm run dev
 ```
 
 # Build purged/minified style.css for production
