@@ -7,6 +7,10 @@
     "dev": "postcss tailwind.css -o style.css && sergey --watch",
     "start": "cross-env NODE_ENV=production postcss tailwind.css -o style.css && sergey"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahyusa/Sergey-Tailwind.git"
+  },
   "keywords": [],
   "author": "Wahyu Syamsul Alam",
   "license": "MIT",
