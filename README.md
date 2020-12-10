@@ -1,5 +1,10 @@
 # Sergey-Tailwind
-Basic Sergey Static site generator with Tailwind CSS v2 including autoprefixer and postcss
+
+Basic Sergey Static site generator with Tailwind CSS v2 including autoprefixer and postcss.
+
+Official web : https://sergey.cool
+
+Official repo : https://github.com/trys/sergey/
 
 # Installation
 
@@ -26,4 +31,5 @@ npm run start
 ```
 
 I didn't know much about NPM and their stuff any suggestion are welcome.
+
 #windows_user :(
