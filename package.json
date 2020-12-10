@@ -1,0 +1,23 @@
+{
+  "name": "sergeytailwind",
+  "version": "0.0.1",
+  "description": "basic sergey with tailwindcss v2 including postcss and autoprefixer installed",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss tailwind.css -o style.css && sergey --watch",
+    "start": "cross-env NODE_ENV=production postcss tailwind.css -o style.css && sergey"
+  },
+  "keywords": [],
+  "author": "Wahyu Syamsul Alam",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.0",
+    "postcss-nested": "^5.0.3",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
